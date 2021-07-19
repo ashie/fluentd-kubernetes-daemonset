@@ -5,8 +5,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 0
   # Watch dependencies for current stable
   - package-ecosystem: "bundler"
     directory: "/docker-image"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 0
